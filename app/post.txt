@@ -1,0 +1,8 @@
+@api = http://localhost:5000/new
+
+POST {{api}}
+Content-Type: application/json
+
+{
+  "text": "something wicked this way comes"
+}
