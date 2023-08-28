@@ -1,0 +1,38 @@
+pipeline {
+  agent any
+  stages {
+    stage("Verify tooling") {
+        steps {
+            sh '''
+            docker version
+            docker-compose version 
+            curl --version
+            '''
+        }
+    }
+    stage('Clone repository') { 
+        steps { 
+            script{
+                checkout scm
+                }
+            }
+    }
+    stage('Start container') {
+        steps {
+            sh 'cd app/'
+            sh 'docker-compose -p inst2 up'
+            sh 'docker-compose ps'
+      }
+    }
+    stage('Run test') {
+        steps {
+            sh 'python3 test_fail.py'
+      }
+    }
+  }
+  post {
+    success {
+        sh 'echo "Keeping instance 1"'
+    }
+  }
+}

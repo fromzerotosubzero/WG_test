@@ -1,0 +1,17 @@
+title,popularity,front_end,back_end,database,note
+Google,2800000000,"JavaScript, TypeScript","C, C++, Go, Java, Python, Node","Bigtable, MariaDB",The most used search engine in the world.
+Facebook,1120000000,"JavaScript, Typescript, Flow","Hack/HHVM, Python, C++, Java, Erlang, D, Haskell","MariaDB, MySQL, HBase, Cassandra",The most visited social networking site.
+YouTube,1100000000,"JavaScript, TypeScript","Python, C, C++, Java, Go","Vitess, BigTable, MariaDB",The most popular video sharing site.
+Yahoo,750000000,JavaScript,PHP,"PostgreSQL, HBase, Cassandra, MongoDB,",N/A
+Etsy,516000000,JavaScript,PHP,"MySQL, Redis",E-commerce website.
+Amazon,2400000000,JavaScript,"Java, C++, Perl","DynamoDB, RDS/Aurora, Redshift",The most used e-commerce site in the world.
+Wikipedia,475000000,JavaScript,PHP,MariaDB,"A free online encyclopedia based on MediaWiki, which is programmed in PHP."
+Fandom,315000000,JavaScript,PHP,MySQL,Wiki hosting service.
+X,290000000,JavaScript,"C++, Java, Scala, Ruby (Ruby On Rails)",MySQL,Popular social network.
+Bing,285000000,JavaScript,"C++, C#","Microsoft SQL Server, Cosmos DB",Search engine from Microsoft.
+eBay,285000000,JavaScript,"Java, JavaScript, Scala",Oracle Database,Online auction house.
+MSN,280000000,JavaScript,C# (ASP.NET),Microsoft SQL Server,"An email client, for simple use. Previously known as ""messenger"", not to be confused with Facebook's messaging platform."
+LinkedIn,260000000,JavaScript,"Java, JavaScript, Scala",Venice,World's largest professional network.
+Pinterest,250000000,JavaScript,"Python (Django), Erlang, Elixir","MySQL, Redis",Search engine for ideas.
+WordPress.com,240000000,JavaScript,PHP,MariaDB,Website manager software.
+Netflix,223090000,JavaScript,"Python, Java","NMDB, PostgreSQL",The biggest video streaming service in the world.
