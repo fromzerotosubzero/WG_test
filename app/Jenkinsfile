@@ -32,6 +32,7 @@ pipeline {
   }
   post {
     success {
+        sh 'docker-compose -p inst2 down'
         sh 'echo "Keeping instance 1"'
     }
   }
